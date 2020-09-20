@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="google-signin-scope" content="profile-email">
+        <meta name="google-signin-client_id" content="627885746984-m4pejlf0q04i4e2d7bphlndnp0f9le7f.apps.googleusercontent.com">
+        <title>Copy Instagram - Login</title>
+        <script src="http://apis.google.com/js/platform.js" async defer></script>
+        <link rel="stylesheet" href="static/css/syle.css"> 
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="top">
+                    <div class="logo">
+                        <img src="static/images/rectangle-logo.png" alt="instagram" style="width: 175px;">
+                    </div>
+                    <div class="or">
+                        <div class="line"></div>
+                        <p>LOGIN</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="dif">
+                        <div class="gs">
+                            <div class="g-signin2" data-onsuccess="OnSignIn" data-theme="dark"></div>
+                        </div>
+                        <div class="or logged onlylogged">
+                            <div class="line"></div>
+                            <p><a href="#" onclick="gotoDashboard();">Dashboard</a></p>
+                            <div class="line"></div>
+                        </div>
+                        <div class="or logged onlylogged">
+                            <div class="line"></div>
+                            <p><a href="#" onclick="onSingOut();">Sign Out</a></p>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>&nbsp;</div>
+                <div class="apps">
+                    <div class="icons">
+                        <a href="https://apps.apple.com/us/app/instagram/id389801252"><img src="static/images/appstore.png" alt="appstore"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en"><img src="static/images/googleplay.png" alt="appstore"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="links">
+                    <ul>
+                        <li><a href="https://about.instagram.com/">ABOUT US</a></li>
+                        <li><a href="https://help.instagram.com/">Help</a></li>
+                        <li><a href="https://about.instagram.com/blog/">PRESS</a></li>
+                        <li><a href="https://www.instagram.com/developer/">API</a></li>
+                        <li><a href="https://www.instagram.com/about/jobs/">JOBS</a></li>
+                        <li><a href="https://help.instagram.com/519522125107875">PRIVACY</a></li>
+                        <li><a href="https://help.instagram.com/581066165581870">TERMS</a></li>
+                        <li><a href="https://www.instagram.com/explore/locations/">LOCATIONS</a></li>
+                        <li><a href="https://www.instagram.com/directory/profiles/">TOP ACCOUNTS</a></li>
+                        <li><a href="https://www.instagram.com/directory/hashtags/">HASTAGS</a></li>
+                        <li><span class="bahasa">LANGUAGE
+                            <select aria-label="Switch Display Language" class="lang">
+                                <option value="af">Africa</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright @ 2020 COPY INSTAGRAM
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
